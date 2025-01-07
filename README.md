@@ -31,10 +31,8 @@ classDiagram
         data_conclusao_projeto: date
     }
     
-    Usuario "1" --> "*" Tarefa : Gerencia
-    Usuario "1" --> "*" Projeto : Responsável
-    Projeto "1" --> "*" Tarefa : Contém
+    Usuario "1" --> "*" Tarefa 
+    Usuario "1" --> "*" Projeto 
+    Projeto "1" --> "*" Tarefa 
     
-    }
-
 ```
